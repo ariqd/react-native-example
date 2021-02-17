@@ -5,7 +5,7 @@ import { StyleSheet, Text, TextInput, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <TextInput value="Ariq Daffa" />
+      <TextInput value="Ariq Daffa"/>
       <Text>Welcome to this CI/CD Course!</Text>
       <StatusBar style="auto" />
     </View>
@@ -13,6 +13,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  container: {
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
