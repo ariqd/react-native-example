@@ -9,11 +9,11 @@ const Greeting = () => {
     <View style={styles.container}>
       <TextInput
         style={styles.input}
-        placeholder="Write your name"
+        placeholder="Enter your name"
         onChangeText={(text) => setName(text)}
       />
       <Text style={{ marginTop: 8 }}>
-        Welcome to this CI/CD Course, {name}!
+        Welcome to this CI/CD for React Native course, {name}!
       </Text>
       <StatusBar style="auto" />
     </View>
